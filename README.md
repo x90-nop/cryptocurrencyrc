@@ -1,5 +1,5 @@
 # cryptocurrencyrc
-![Cryptocurrencyrc Preview](https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/a1.png)
+![Cryptocurrencyrc Preview](https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/a2.png)
 
  Conky widget to keep you updated with Bitcoin,Ethereum,and Monero prices.Drop and appreciation percentages not fully implemented yet.
 ## Downloading and running
@@ -26,4 +26,4 @@ You can either configure your system to execute this script on startup or just a
 rm /tmp/cryptorc
 ```
 ## License
-This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details
