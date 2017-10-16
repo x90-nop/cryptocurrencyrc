@@ -1,0 +1,8 @@
+[cryptorc]
+monero = 94.69
+
+7
+eum = 334.43
+monero = 94.69
+bitcoin = 5680.66
+
