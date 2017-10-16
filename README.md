@@ -1,4 +1,7 @@
 # cryptocurrencyrc
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/a1.png">
+</p>
  Conky widget to keep you updated with Bitcoin,Ethereum,and Monero prices.Drop and appreciation percentages not fully implemented yet.
 ## Downloading and running
 ```
