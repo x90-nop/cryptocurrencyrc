@@ -5,7 +5,7 @@ import BeautifulSoup
 import requests
 
 html_parse = '0123456789,.'
-URL = 'https://coinmarketcap.com/currencies/'
+URL = 'http://coinmarketcap.com/currencies/'
 
 def get_price(url, currency_name):
 	html_source = requests.get(url+currency_name)

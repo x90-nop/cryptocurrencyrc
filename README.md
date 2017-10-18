@@ -1,6 +1,6 @@
 # cryptocurrencyrc
 ![Cryptocurrencyrc Preview](https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/a2.png)
- Conky widget to keep you updated with Bitcoin,Ethereum,and Monero prices(currencies can be changed as described bellow).Drop and appreciation percentages/graphics and  are under development.
+ Conky widget to keep you updated with Bitcoin,Ethereum,and Monero prices(currencies can be changed as described bellow).Drop and appreciation percentages/graphics and other currencies(besides USD) are under development.
 ## Downloading and running
 ```
 git clone https://github.com/x90-nop/cryptocurrencyrc
