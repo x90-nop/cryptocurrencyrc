@@ -6,7 +6,8 @@
 ## Downloading and running
  Dependencies:
 * Conky
-* python  
+* python
+
  Clone our repository:
 ```
 git clone https://github.com/x90-nop/cryptocurrencyrc
