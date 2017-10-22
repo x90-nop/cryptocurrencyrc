@@ -3,6 +3,7 @@
 import argparse
 import BeautifulSoup
 import requests
+from currency_converter import CurrencyConverter
 
 html_parse = '0123456789,.'
 URL = 'http://coinmarketcap.com/currencies/'
@@ -20,7 +21,11 @@ def get_price(url, currency_name):
 
 parser = argparse.ArgumentParser(description='Provides price info about cryptocurrencies')
 parser.add_argument('-c', action = 'store', dest = 'currency',
-	required = True, help = 'Cryptocurrency full name(bitcoin,monero...)')
+	required = True, help = 'Cryptocurrency name')
+parser.add_argument('--convert-to', action = 'store', dest = 'convert', default = 'USD',
+	required = False, help = 'Fiat currency conversion')
 args = parser.parse_args()
 
-print get_price(URL, args.currency)
+c = CurrencyConverter()
+c.convert(100, 'EUR', 'USD')
+print int(round(c.convert(get_price(URL, args.currency), 'USD', args.convert)))
