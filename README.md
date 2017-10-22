@@ -1,9 +1,5 @@
 # cryptocurrencyrc
-<<<<<<< HEAD
 ![CryptocurrencyrcPreview](https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/print.png)
-=======
-![CryptocurrencyrcPreview](https://raw.githubusercontent.com/x90-nop/cryptocurrencyrc/master/images/a2.png)
->>>>>>> 0794ecb961616b453ea25ef66986c606d68b03a8
  Conky widget to keep you updated with Bitcoin,Ethereum,and Monero prices(currencies can be changed and added,as described bellow). If you enjoy the widget please contribute! Pull requests are appreciated,as are donations of ANY amount. My Bitcoin address: `1Q9MxXPcLJ654u1o6F7YRxBB3HnMRZvRBf`  
  Fiat currency conversion script by alexprengere: https://github.com/alexprengere/currencyconverter
 ## Downloading and running
