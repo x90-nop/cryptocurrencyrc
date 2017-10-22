@@ -22,6 +22,7 @@ conky -c conkyrc
  * Download the currency's logo to the `images` folder
  * Change the respective `color` and `image` lines in the `conkyrc` file
  * Change the currency name after `voffset` and in the `exec` variable
+ 
  To add a new currency,create a new `color` line,copy and paste one of the lines bellow `TEXT` and do the same procedure.
 
 ## Fiat currency conversion
