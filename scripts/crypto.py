@@ -27,5 +27,4 @@ parser.add_argument('--convert-to', action = 'store', dest = 'convert', default 
 args = parser.parse_args()
 
 c = CurrencyConverter()
-c.convert(100, 'EUR', 'USD')
-print int(round(c.convert(get_price(URL, args.currency), 'USD', args.convert)))
+print "{0:.2f}".format(c.convert(get_price(URL, args.currency), 'USD', args.convert))
